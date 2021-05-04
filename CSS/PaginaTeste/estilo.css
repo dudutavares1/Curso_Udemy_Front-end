@@ -1,0 +1,47 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: silver;
+margin: 0;
+}
+
+.hero{
+    background-image: url(imagem/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-weight: 46px;
+    text-shadow: 3px 3px 5px black;
+}
+
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+
+.content-section {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+  
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 5px white;
+}
