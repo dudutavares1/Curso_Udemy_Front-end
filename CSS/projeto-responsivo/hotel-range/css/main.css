@@ -81,3 +81,28 @@ line-height: 1.5;
 
 
 }
+
+.middle-content {
+    padding: 2em;
+    background-color: #f6f6f6;
+    text-align: center;
+} 
+
+
+.middle-content-title{
+    font-size: 1.25em;
+    color: #652e78;
+    text-transform: uppercase;
+}
+
+.middle-content p{
+    line-height: 1.5;
+    color: #222;
+
+}
+
+
+.middle-content span[class^=icon]{
+    font-size: 4em;
+    color: #652e78;
+}
