@@ -9,6 +9,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
+.clearfix {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
 .button{
     display: inline-block;
     padding: .75em 2.5em;
@@ -153,4 +159,36 @@ line-height: 1.5;
 }
 .main-content-title{
     letter-spacing: .1em;
+}
+
+
+@media screen and(min-width: 48.75em) {
+   
+.top-header-logo{
+    float: left;
+}
+
+.top-nav{
+    background: transparent;
+    float: right;
+}
+
+.top-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav li {
+   display: inline-block;
+}
+
+    .top-content {
+       background: #521a66;
+       color: white;
+   } 
+
+   .top-content-title .top-content-subtitle {
+    color: white;
+} 
+
 }
