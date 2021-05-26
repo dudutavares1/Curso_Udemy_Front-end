@@ -1,0 +1,59 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> pagina de exemplo estrutura basica </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Daniel">
+        <meta name="description" content="descrição bacanuda">
+        <meta name="keywords" content="html5, tecnologia">
+        
+        <style>
+            .gridContainer{
+                width: 300px;
+                background: #ccc;
+            }
+
+            .gridItem{
+                background: #999;
+                grid-row-gap: 50px 
+                font-size: 2em;
+                font-family: sans-serif;
+                grid-column-gap: 12px
+            }
+            .gridItem:nth-child(even){
+                background: #999;
+                color: white;
+            }
+            .gridItem:nth-child(odd){
+                background: #eee;
+            }
+
+
+            /*GIRD */
+
+            .gridContainer{
+                display: grid;
+                grid-template-columns: 100px 100px 100px;
+                grid-template-rows: 100px 100px ;
+             /*   grid-template-columns: repeat(3,100px); */
+            }
+
+        </style>
+    </head>
+    <body>
+        <h2>Grid Layout</h2>
+        
+        
+        <div class="gridContainer">
+            <div class="gridItem">1</div>
+            <div class="gridItem">2</div>
+            <div class="gridItem">3</div>
+            <div class="gridItem">4</div>
+            <div class="gridItem">5</div>
+            <div class="gridItem">6</div>
+        </div>
+        
+        
+    </body>
+</html>
