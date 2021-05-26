@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu CSS nao funciona</title>
+
+<style>
+.destaque{
+    color: red;
+}
+
+
+.destaque p{
+    color: green;
+}
+
+p !important{ 
+    color: green;
+}
+#destaque{
+    color: pink;
+}
+
+p[lang] {
+    color: rosybrown;
+}
+
+
+</style>
+
+</head>
+<body>
+<h1>Meu CSS nao funciona</h1>    
+<p class="destaque">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam quo porro beatae soluta ducimus. Iure obcaecati minus rem sequi perferendis, assumenda nostrum repellendus in nesciunt quisquam praesentium culpa nihil ducimus!</p>
+
+<p id="destaque">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam quo porro beatae soluta ducimus. Iure obcaecati minus rem sequi perferendis, assumenda nostrum repellendus in nesciunt quisquam praesentium culpa nihil ducimus!</p>
+
+<p class="destaque">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam quo porro beatae soluta ducimus. Iure obcaecati minus rem sequi perferendis, assumenda nostrum repellendus in nesciunt quisquam praesentium culpa nihil ducimus!</p>
+
+<p lang="pt-br"> testando atributo</p>
+
+
+
+</body>
+</html>
