@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Logica de Programação Javascript</title>
+        <meta charset="utf-8">
+        <style>
+        body{
+            background-color: black;
+            color: red;
+            font-size: 30px;
+            text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Lógica de programação com Javascript</h1>
+        
+        <script>
+            
+            //pedir para o usuario digitar um numero
+                                                            
+            var n1 = Number(prompt('digite um numero'));
+                                                
+            //pedir para o usuario digitar outro numero
+                        
+            var n2 = Number (prompt('digite outro numero'))
+                        
+            /*
+            mostrar num alert o seguinte texto
+             o resto da divisão de (n1) por (n2) é: (resultado);
+            */
+               
+           document.write (` o resto da divisão de ${n1} por ${n2} é: ` + (n1 % n2) + '<br>');
+
+            
+            /*
+            mostrar num alert o seguinte texto
+            o numero (n1) elevado a (n2) é: (resultado); 
+            */
+           
+            document.write (`o numero ${n1} elevado a  ${n2} é: ` + (n1 ** n2));
+            
+        </script>
+    </body>
+</html>
