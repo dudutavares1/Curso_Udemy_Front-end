@@ -17,23 +17,39 @@
     </body>
     
     <script>
-    
         //fazer jogador1 digitar um numero
-             var jogador1 = Number(prompt('Digite um Numero: ')) 
+        var jogador1 =  parseInt(prompt('digite um numero'))
         //fazer jogador2 digitar outro numero
-        var jogador2 = Number(prompt('Digite um Numero: ')) 
+        var jogador2 =  parseInt(prompt('digite um numero'))
         //se forem iguais, mostrar mensagem 'empate'
         var empate = jogador1 == jogador2
-        //sortear um numero entre 0 e 1
-        Math.random() * 2
+       if (jogador1 === jogador2){
+           alert('Voces Empataram')
+       }
+
+       else {
+           var nSorteado = parseInt(Math.random() * 2)
+       }
 
         // se o numero sorteado for 0, ganha quem escolher o numero MENOR
-        if ()
-            
-        //se o numero sorteado for 1, ganha quem escolher o numero MAIOR
-            
+     if (nSorteado === 0){
+if(jogador1 < jogador2){
+    alert('ganhou o jagador 1')
 
-            
+} else {
+    alert('O jogador 2 Ganhou')
+}
+
+    
+        //se o numero sorteado for 1, ganha quem escolher o numero MAIOR
+        
+
+    }else {
+if(jogador 1 > jogador2) 
+alert('Ganhou o Jogador 2')
+     } else {
+         alert('ganhou o jogador 2')
+     }    
         
         
         

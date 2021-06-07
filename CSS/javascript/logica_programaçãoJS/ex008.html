@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Logica de Programação Javascript</title>
+        <meta charset="utf-8">
+        <style>
+        body{
+            background-color: black;
+            color: red;
+            font-size: 30px;
+            text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Lógica de programação com Javascript</h1> <br>
+        <h1>Média do Aluno</h1>
+    </body>
+    
+    <script>
+       var nome = prompt('Digite seu nome')
+       var portugues = Number (prompt('Digitei sua nota de Portugues: ')) 
+       var matematica = Number(prompt('Digite sua nota de Matematica: '))
+       var media = (portugues + matematica) / 2
+
+       if( media > 5 && portugues > 0 && matematica >0){
+           document.write(`parabens ${nome}, voce foi Aprovado !`)
+       }
+        else {
+            document.write(`${nome} voce foi, Reprovado !`)
+        }
+    </script>
+</html>
