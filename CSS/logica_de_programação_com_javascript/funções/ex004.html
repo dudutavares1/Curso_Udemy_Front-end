@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Logica de Programação Javascript</title>
+        <meta charset="utf-8">
+        <style>
+        body{
+            color: red;
+            font-size: 20px;
+          
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Calculadora</h1>
+<button onclick="calcular('+')" >+</button>  
+<button onclick="calcular('-')" >-</button>
+<button onclick="calcular('/')" >/</button>
+<button onclick="calcular('*')" >*</button>  
+
+<dir id="output"></dir>
+      
+  <script>
+var n1 = Number(prompt('digite um numero: '))       
+
+escrever ();
+
+function escrever (){
+    
+    var output = document.querySelector('#output');
+    output.innerHTML = n1;
+}
+
+
+    function calcular (simbolo){
+        var n =  Number(prompt('digite um numero: '))       
+        
+       switch(simbolo){
+           case '+':
+           n1 = n1 + n
+           break
+
+           case '-':
+           n1 = n1 - n
+           break
+
+           case '/':
+           n1 = n1 / n
+           break
+
+           case '*':
+           n1 = n1 * n
+           break
+       }
+       
+       
+        escrever();
+
+    }
+
+
+  </script>
+    
+
+
+</body> 
+</html>

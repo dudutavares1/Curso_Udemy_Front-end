@@ -5,7 +5,6 @@
         <meta charset="utf-8">
         <style>
         body{
-            background-color: black;
             color: red;
             font-size: 20px;
             text-align: center;
@@ -22,38 +21,40 @@
 <dir id="output"></dir>
       
   <script>
-var numero = Number(prompt('digite um numero: '))       
-   
-escreve();
+var n1 = Number(prompt('digite um numero: '))       
 
-function escreve (){
-    var output = document.querySelector('#output')
+escrever ();
+
+function escrever (){
+    
+    var output = document.querySelector('#output');
     output.innerHTML = n1;
 }
 
-function somar (){
-    var n = Number(prompt('digite um numero: '))       
-    n1 = n1 + n;
-    escreve();
-}
 
-function subtrair (){
-    var n = Number(prompt('digite um numero: '))       
-    n1 = n1 - n;
-    escreve();
-}
+    function somar (){
+        var n =  Number(prompt('digite um numero: '))       
+        n1 = n1 + n;
+        escrever();
+    }
 
-function multiplicar (){
-    var n = Number(prompt('digite um numero: '))       
-    n1 = n1 * n;
-    escreve();
-}
+    function subtrair (){
+        var n =  Number(prompt('digite um numero: '))       
+        n1 = n1 - n;
+        escrever();
+    }
 
-function dividir (){
-    var n = Number(prompt('digite um numero: '))       
-    n1 = n1 / n;
-    escreve();
-}
+    function multiplicar (){
+        var n =  Number(prompt('digite um numero: '))       
+        n1 = n1 * n;
+        escrever();
+    }
+
+    function dividir (){
+        var n =  Number(prompt('digite um numero: '))       
+        n1 = n1 / n;
+        escrever();
+    }
 
   </script>
     
